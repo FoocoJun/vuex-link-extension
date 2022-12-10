@@ -10,16 +10,11 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:vuex-link.helloWorld"
+    "onLanguage:vue"
   ],
   "main": "./dist/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "vuex-link.helloWorld",
-        "title": "Hello World"
-      }
-    ]
+    "commands": []
   },
   "scripts": {
     "vscode:prepublish": "yarn run package",
